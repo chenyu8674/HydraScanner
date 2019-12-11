@@ -1,0 +1,326 @@
+
+{
+	"buildFiles" : [ "D:/Work/project_Github/LPR/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "IlmImf",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libIlmImf.a",
+			"toolchain" : "351207223"
+		},
+		"ittnotify-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "ittnotify",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libittnotify.a",
+			"toolchain" : "351207223"
+		},
+		"libcpufeatures-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libcpufeatures.a",
+			"toolchain" : "351207223"
+		},
+		"libjasper-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libjasper",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibjasper.a",
+			"toolchain" : "351207223"
+		},
+		"libjpeg-turbo-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libjpeg-turbo",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibjpeg-turbo.a",
+			"toolchain" : "351207223"
+		},
+		"libpng-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libpng",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibpng.a",
+			"toolchain" : "351207223"
+		},
+		"libprotobuf-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libprotobuf",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibprotobuf.a",
+			"toolchain" : "351207223"
+		},
+		"libtiff-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libtiff",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibtiff.a",
+			"toolchain" : "351207223"
+		},
+		"libwebp-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libwebp",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/liblibwebp.a",
+			"toolchain" : "351207223"
+		},
+		"lpr-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lpr",
+			"buildCommand" : "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\armeabi --target lpr",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/javaWarpper.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/CNNRecognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/FastDeskew.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/FineMapping.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/Pipeline.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/PlateDetection.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/PlateSegmentation.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/Recognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/SegmentationFreeRecognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/debug/armeabi"
+				}
+			],
+			"output" : "D:/Work/project_Github/LPR/app/build/intermediates/cmake/debug/obj/armeabi/liblpr.so",
+			"toolchain" : "351207223"
+		},
+		"opencv_calib3d-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_calib3d.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_core-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_core",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_core.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_dnn-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_dnn.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_features2d-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_features2d.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_flann-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_flann",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_flann.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_highgui-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_highgui.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_imgcodecs-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_imgcodecs.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_imgproc-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_imgproc.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_java-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_java",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/libs/armeabi/libopencv_java3.so",
+			"toolchain" : "351207223"
+		},
+		"opencv_ml-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_ml",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_ml.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_objdetect-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_objdetect.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_photo-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_photo",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_photo.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_shape-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_shape",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_shape.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_stitching-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_stitching.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_superres-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_superres",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_superres.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_video-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_video",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_video.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_videoio-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_videoio.a",
+			"toolchain" : "351207223"
+		},
+		"opencv_videostab-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/staticlibs/armeabi/libopencv_videostab.a",
+			"toolchain" : "351207223"
+		},
+		"quirc-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "quirc",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libquirc.a",
+			"toolchain" : "351207223"
+		},
+		"tbb-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "tbb",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libtbb.a",
+			"toolchain" : "351207223"
+		},
+		"tegra_hal-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "tegra_hal",
+			"buildType" : "debug",
+			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi/libtegra_hal.a",
+			"toolchain" : "351207223"
+		}
+	},
+	"toolchains" : 
+	{
+		"351207223" : 
+		{
+			"cCompilerExecutable" : "D:/Work/Android/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Work/Android/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

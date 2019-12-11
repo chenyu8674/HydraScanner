@@ -1,0 +1,41 @@
+{
+  "ndkFolder": "D:\\Work\\Android\\android-ndk-r14b",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is D:\\Work\\Android\\android-ndk-r14b"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is D:\\Work\\Android\\android-ndk-r11c"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is D:\\Work\\Android\\android-sdk-windows"
+    },
+    {
+      "level": "WARN",
+      "message": "Support for ANDROID_NDK_HOME is deprecated and will be removed in the future. Use android.ndkVersion in build.gradle instead."
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\Work\\Android\\android-ndk-r14b by ndk.dir"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\Work\\Android\\android-ndk-r11c by ANDROID_NDK_HOME"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\Work\\Android\\android-sdk-windows\\ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested ndk.dir (D:\\Work\\Android\\android-ndk-r14b) which has version 14.1.3816874"
+    }
+  ]
+}

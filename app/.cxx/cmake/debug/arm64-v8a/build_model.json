@@ -1,0 +1,81 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\Work\\project_Github\\LPR",
+      "sdkFolder": "D:\\Work\\Android\\android-sdk-windows",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Work\\project_Github\\LPR\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\Work\\project_Github\\LPR\\app",
+      "makeFile": "D:\\Work\\project_Github\\LPR\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\Work\\project_Github\\LPR\\.cxx",
+      "cxxFolder": "D:\\Work\\project_Github\\LPR\\app\\.cxx",
+      "ndkFolder": "D:\\Work\\Android\\android-ndk-r14b",
+      "ndkVersion": "14.1.3816874",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dgnu++11"
+    ],
+    "variantName": "debug",
+    "soFolder": "D:\\Work\\project_Github\\LPR\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "D:\\Work\\project_Github\\LPR\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI",
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64",
+      "MIPS",
+      "MIPS64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "D:\\Work\\project_Github\\LPR\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}
