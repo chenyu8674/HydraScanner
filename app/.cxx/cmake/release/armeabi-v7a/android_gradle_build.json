@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "D:/Work/project_Github/LPR/app/CMakeLists.txt" ],
+	"buildFiles" : [ "D:/Work/project_Github/HydraScanner/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+		"D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\HydraScanner\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -14,14 +14,6 @@
 			"artifactName" : "IlmImf",
 			"buildType" : "release",
 			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libIlmImf.a",
-			"toolchain" : "351207223"
-		},
-		"ittnotify-Release-armeabi-v7a" : 
-		{
-			"abi" : "armeabi-v7a",
-			"artifactName" : "ittnotify",
-			"buildType" : "release",
-			"output" : "D:/Work/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libittnotify.a",
 			"toolchain" : "351207223"
 		},
 		"libcpufeatures-Release-armeabi-v7a" : 
@@ -84,66 +76,66 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "lpr",
-			"buildCommand" : "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\release\\armeabi-v7a --target lpr",
+			"buildCommand" : "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\HydraScanner\\app\\.cxx\\cmake\\release\\armeabi-v7a --target lpr",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/javaWarpper.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/javaWarpper.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/CNNRecognizer.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/CNNRecognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/FastDeskew.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/FastDeskew.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/FineMapping.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/FineMapping.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/Pipeline.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/Pipeline.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/PlateDetection.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/PlateDetection.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/PlateSegmentation.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/PlateSegmentation.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/Recognizer.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/Recognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm  -Dlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\Work\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\Work\\Android\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "D:/Work/project_Github/LPR/app/src/main/jni/src/SegmentationFreeRecognizer.cpp",
-					"workingDirectory" : "D:/Work/project_Github/LPR/app/.cxx/cmake/release/armeabi-v7a"
+					"src" : "D:/Work/project_Github/HydraScanner/app/src/main/jni/src/SegmentationFreeRecognizer.cpp",
+					"workingDirectory" : "D:/Work/project_Github/HydraScanner/app/.cxx/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "D:/Work/project_Github/LPR/app/build/intermediates/cmake/release/obj/armeabi-v7a/liblpr.so",
+			"output" : "D:/Work/project_Github/HydraScanner/app/build/intermediates/cmake/release/obj/armeabi-v7a/liblpr.so",
 			"toolchain" : "351207223"
 		},
 		"opencv_calib3d-Release-armeabi-v7a" : 

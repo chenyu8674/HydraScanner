@@ -1,9 +1,9 @@
 {
   "buildFiles": [
-    "D:\\Work\\project_Github\\LPR\\app\\CMakeLists.txt"
+    "D:\\Work\\project_Github\\HydraScanner\\app\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+    "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\HydraScanner\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
   ],
   "libraries": {
     "opencv_flann-Release-armeabi-v7a": {
@@ -63,14 +63,9 @@
     },
     "lpr-Release-armeabi-v7a": {
       "artifactName": "lpr",
-      "buildCommand": "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\LPR\\app\\.cxx\\cmake\\release\\armeabi-v7a --target lpr",
+      "buildCommand": "D:\\Work\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\project_Github\\HydraScanner\\app\\.cxx\\cmake\\release\\armeabi-v7a --target lpr",
       "abi": "armeabi-v7a",
-      "output": "D:\\Work\\project_Github\\LPR\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\liblpr.so"
-    },
-    "ittnotify-Release-armeabi-v7a": {
-      "artifactName": "ittnotify",
-      "abi": "armeabi-v7a",
-      "output": "D:\\Work\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\armeabi-v7a\\libittnotify.a"
+      "output": "D:\\Work\\project_Github\\HydraScanner\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\liblpr.so"
     },
     "libcpufeatures-Release-armeabi-v7a": {
       "artifactName": "libcpufeatures",

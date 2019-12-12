@@ -25,10 +25,8 @@ rule CXX_COMPILER__lpr
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__lpr
-  command = cmd.exe /C "$PRE_LINK && D:\Work\Android\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE @$RSP_FILE  && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && D:\Work\Android\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Work/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Work/Android/android-ndk-r14b/platforms/android-19/arch-arm -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
-  rspfile = $RSP_FILE
-  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -44,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Work\Android\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe -HD:\Work\project_Github\LPR\app -BD:\Work\project_Github\LPR\app\.cxx\cmake\release\armeabi-v7a
+  command = D:\Work\Android\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe -HD:\Work\project_Github\HydraScanner\app -BD:\Work\project_Github\HydraScanner\app\.cxx\cmake\release\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

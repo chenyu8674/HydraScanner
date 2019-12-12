@@ -16,7 +16,6 @@ import com.pcl.lpr.R;
  * time   : 2019/05/05
  */
 public class ViewFinderView extends View {
-
     //相机遮罩框外面的线，阴影区域，滚动线
     private Paint border, area, line;
     //相机遮罩框中间透明区域
@@ -54,13 +53,13 @@ public class ViewFinderView extends View {
 
         screenHeight = context.getResources().getDisplayMetrics().heightPixels;
         screenWidth = context.getResources().getDisplayMetrics().widthPixels;
-        centerHeight = 500;
-        centerWidth = screenWidth - 100;
+        // centerHeight = 500;
+        centerHeight = centerWidth = screenWidth - 100;
         center = getCenterRect(centerHeight, centerWidth);
 
         line = new Paint(Paint.ANTI_ALIAS_FLAG);
         line.setStyle(Paint.Style.STROKE);
-        line.setColor(Color.GREEN);
+        line.setColor(getResources().getColor(R.color.colorAccent));
         //设置滚动线的起始点
         startX = center.left;
         startY = center.top;
@@ -70,10 +69,6 @@ public class ViewFinderView extends View {
 
     /**
      * 根据尺寸获取中间区大小
-     *
-     * @param height
-     * @param width
-     * @return
      */
     private Rect getCenterRect(int height, int width) {
         Rect rect = new Rect();
@@ -91,10 +86,9 @@ public class ViewFinderView extends View {
         canvas.drawRect(0, center.bottom + 1, screenWidth, screenHeight, area);
         canvas.drawRect(0, center.top - 1, center.left - 1, center.bottom + 1, area);
         canvas.drawRect(center.right + 1, center.top - 1, screenWidth, center.bottom + 1, area);
-
         canvas.drawRect(center, border);
 
-        //滚动线
+        // 滚动线
         if (isDown) {
             startY = endY += SPEED;
             if (startY >= center.bottom)
@@ -104,8 +98,7 @@ public class ViewFinderView extends View {
             if (startY <= center.top)
                 isDown = true;
         }
-        canvas.drawLine(startX, startY, endX, endY, line);
+        // canvas.drawLine(startX, startY, endX, endY, line);
         postInvalidate();
     }
-
 }
