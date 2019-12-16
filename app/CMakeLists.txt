@@ -16,7 +16,6 @@ aux_source_directory(src/main/jni/src SOURCE_FILES_CORE)
 list(APPEND SOURCE_FILES ${SOURCE_FILES_CORE})
 
 #修改修改为自己的opencv-android-sdk 的JNI路径
-#set(OpenCV_DIR /home/aleyn/Android/TestProject/OpenCV-android-sdk/sdk/native/jni)
 set(OpenCV_DIR D:/Work/OpenCV-android-sdk/sdk/native/jni)
 find_package(OpenCV REQUIRED)
 

@@ -13,6 +13,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.Window;
@@ -54,6 +55,7 @@ public class HydraActivity extends AppCompatActivity implements SurfaceHolder.Ca
         setContentView(R.layout.activity_lpr);
         requestDangerousPermissions();
         viewFinderView = findViewById(R.id.view_finder_view);
+        viewFinderView.setOnClickListener(v->switchFlashLight());
         resultView = findViewById(R.id.view_result_view);
         SurfaceView mSurfaceView = findViewById(R.id.sv_camera_ui);
         SurfaceHolder surfaceHolder = mSurfaceView.getHolder();
@@ -222,4 +224,17 @@ public class HydraActivity extends AppCompatActivity implements SurfaceHolder.Ca
         return result;
     }
 
+    /**
+     * 切换闪光灯
+     */
+    public void switchFlashLight() {
+        Camera.Parameters parameters = camera.getParameters();
+        String flashMode = parameters.getFlashMode();
+        if (flashMode.equals(Camera.Parameters.FLASH_MODE_TORCH)) {
+            parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+        } else {
+            parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+        }
+        camera.setParameters(parameters);
+    }
 }
